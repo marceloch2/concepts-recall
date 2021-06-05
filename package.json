@@ -1,0 +1,25 @@
+{
+  "name": "concepts-recall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Closures.js",
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipevlourenco/concepts-recall.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipevlourenco/concepts-recall/issues"
+  },
+  "homepage": "https://github.com/felipevlourenco/concepts-recall#readme",
+  "dependencies": {
+    "@types/node": "^15.12.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
