@@ -1,23 +1,24 @@
 // Closejure
-const test = (first) => {
-  first = `${first}, `
-  return (second) => {
+const test = f => {
+  let first = `${f}, `
+  return second => {
     return first + second
   }
 }
 
 const okCall = test('Marcelo')
-// console.log(okCall('Carneiro'))
-// console.log(okCall('Gilian'))
+console.log(okCall('Carneiro'))
+console.log(okCall('Gilian'))
+console.log(test('felipe')('lourenco'))
 
-const Animal = (kind) => {
+const Animal = kind => {
   const creator = 'Deus'
-  const talkToCreator = (outro) => {
+  const talkToCreator = outro => {
     console.log(`${kind} quer falar com ${outro ? outro : creator}`)
   }
 
   return {
-    pingCriador: (outro) => {
+    pingCriador: outro => {
       talkToCreator(outro)
     },
     andar: () => {
@@ -25,7 +26,7 @@ const Animal = (kind) => {
     },
     pular: () => {
       console.log(`${kind} esta pulando`)
-    },
+    }
   }
 }
 
