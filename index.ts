@@ -1,17 +1,17 @@
 import { TreeNode, BinaryTree } from './binary_tree'
-// import { LinkedList, Node } from './linked_list'
+import { LinkedList, Node } from './linked_list'
 
-// const list = new LinkedList()
+const list = new LinkedList()
 
-// list.add(new Node(3))
-// list.add(new Node(7))
-// list.add(new Node(8))
-// list.add(new Node(12))
-// list.add(new Node(29))
+list.add(new Node(3))
+list.add(new Node(7))
+list.add(new Node(8))
+list.add(new Node(12))
+list.add(new Node(29))
 
-// list.print()
-// list.reverse()
-// list.print()
+list.print()
+list.reverse()
+list.print()
 
 const tree = new BinaryTree()
 tree.add(new TreeNode(8))
